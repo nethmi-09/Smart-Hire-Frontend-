@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SmartHire Register</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+
+
+
+<video autoplay muted loop id="background-video">
+
+<source src="assets/background.mp4" type="video/mp4">
+
+</video>
+
+
+<div class="page-content">
+
+
+<header class="header">
+
+
+<div class="logo-area">
+
+<img src="assets/logo.png">
+
+<h2>SmartHire</h2>
+
+</div>
+
+
+
+<nav class="nav-links">
+
+<a href="index.html">Home</a>
+
+<a href="login.html">Login</a>
+
+</nav>
+
+
+</header>
+
+
+
+
+
+
+<section class="form-section">
+
+
+<div class="form-box">
+
+
+<h1>Create Account</h1>
+
+
+<input 
+type="text"
+id="name"
+placeholder="Full Name"
+>
+
+
+
+<input
+type="email"
+id="email"
+placeholder="Email Address"
+>
+
+
+
+<input
+type="text"
+id="phone"
+placeholder="Phone Number"
+>
+
+
+
+
+<select id="role">
+
+<option>
+Select Account Type
+</option>
+
+<option>
+Customer
+</option>
+
+<option>
+Service Provider
+</option>
+
+
+</select>
+
+
+
+
+<input
+type="password"
+id="password"
+placeholder="Password"
+>
+
+
+
+<button onclick="registerUser()">
+
+Register
+
+</button>
+
+
+
+<p id="registerMessage"></p>
+
+
+</div>
+
+
+</section>
+
+
+
+<script src="js/auth.js"></script>
+
+
+</body>
+
+</html>

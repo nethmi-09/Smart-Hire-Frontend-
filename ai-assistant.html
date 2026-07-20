@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>SmartHire AI Assistant</title>
+
+
+<link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+
+<body>
+
+<video autoplay muted loop id="background-video">
+
+<source src="assets/background.mp4" type="video/mp4">
+
+</video>
+
+
+
+<div class="page-content">
+
+
+
+<header class="header">
+
+
+<div class="logo-area">
+
+
+<img src="assets/logo.png">
+
+
+<h2>
+SmartHire
+</h2>
+
+
+</div>
+
+
+
+
+<nav class="nav-links">
+
+
+<a href="index.html">
+Home
+</a>
+
+
+<a class="active" href="ai-assistant.html">
+AI Assistant
+</a>
+
+
+<a href="services.html">
+Services
+</a>
+
+
+</nav>
+
+
+
+</header>
+
+
+
+
+
+
+
+<section class="ai-section">
+
+
+<h1>
+🤖 SmartHire AI Assistant
+</h1>
+
+
+
+
+<div class="chat-box" id="chatBox">
+
+
+<div class="bot-message">
+
+Hello! I am SmartHire AI Assistant.
+How can I help you?
+
+</div>
+
+
+</div>
+
+
+
+
+
+<div class="chat-input">
+
+
+<input
+type="text"
+id="userMessage"
+placeholder="Ask about services..."
+>
+
+
+
+<button onclick="sendMessage()">
+
+Send
+
+</button>
+
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+<script src="js/ai.js"></script>
+
+
+</body>
+
+</html>

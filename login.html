@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SmartHire Login</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+
+
+<video autoplay muted loop id="background-video">
+
+<source src="assets/background.mp4" type="video/mp4">
+
+</video>
+
+
+<div class="page-content">
+<header class="header">
+<div class="logo-area">
+<img src="assets/logo.png">
+<h2>SmartHire</h2>
+</div>
+<nav class="nav-links">
+<a href="index.html">Home</a>
+<a href="register.html">Register</a>
+</nav>
+</header>
+<section class="form-section">
+<div class="form-box">
+<h1>Login</h1>
+<input 
+type="email"
+id="loginEmail"
+placeholder="Email Address"
+>
+<input
+type="password"
+id="loginPassword"
+placeholder="Password"
+>
+<button onclick="loginUser()">
+Login
+</button>
+<p id="loginMessage"></p>
+<p>
+Don't have an account?
+<a href="register.html">
+Register
+</a>
+</p>
+</div>
+</section>
+<script src="js/auth.js"></script>
+</body>
+</html>

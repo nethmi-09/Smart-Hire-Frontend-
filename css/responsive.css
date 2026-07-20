@@ -1,0 +1,200 @@
+@media(max-width:900px){
+
+
+
+.header{
+
+
+    flex-direction:column;
+
+
+}
+
+
+
+.nav-links{
+
+
+    margin-top:20px;
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+
+}
+
+
+
+
+.hero{
+
+
+    flex-direction:column;
+
+    text-align:center;
+
+
+}
+
+
+
+.hero h1{
+
+
+    font-size:40px;
+
+
+}
+
+
+
+.hero-image img{
+
+
+    width:300px;
+
+    margin-top:40px;
+
+
+}
+
+
+
+
+.features{
+
+
+    flex-direction:column;
+
+    align-items:center;
+
+
+}
+
+
+
+
+
+.dashboard-cards{
+
+
+    flex-direction:column;
+
+    align-items:center;
+
+
+}
+
+
+
+
+
+}
+
+
+
+@media(max-width:600px){
+
+
+
+.nav-links a{
+
+
+    display:block;
+
+    margin:15px;
+
+
+}
+
+
+
+
+.hero h1{
+
+
+    font-size:32px;
+
+
+}
+
+
+
+.second{
+
+
+    display:block;
+
+    margin:20px 0;
+
+
+}
+
+
+
+.cards{
+
+
+    flex-direction:column;
+
+    align-items:center;
+
+
+}
+
+
+
+
+.card{
+
+
+    width:90%;
+
+
+}
+
+
+
+
+.form-box{
+
+
+    width:90%;
+
+
+}
+
+
+
+.chat-input input{
+
+
+    width:90%;
+
+
+}
+
+
+
+.contact-box{
+
+
+    width:90%;
+
+
+}
+
+
+
+.booking-table{
+
+
+    overflow-x:auto;
+
+
+}
+
+
+
+}

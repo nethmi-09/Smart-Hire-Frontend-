@@ -1,0 +1,208 @@
+.dashboard{
+
+    padding:60px 8%;
+
+    text-align:center;
+
+}
+
+
+
+.dashboard h1{
+
+    font-size:40px;
+
+    margin-bottom:40px;
+
+}
+
+
+
+.dashboard-cards{
+
+
+    display:flex;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:25px;
+
+
+}
+
+
+
+
+.dash-card{
+
+
+    width:270px;
+
+    padding:35px;
+
+
+    background:
+
+    rgba(255,255,255,.12);
+
+
+    backdrop-filter:blur(15px);
+
+
+    border-radius:25px;
+
+
+    transition:.3s;
+
+
+}
+
+
+
+.dash-card:hover{
+
+
+    transform:translateY(-10px);
+
+
+    box-shadow:
+
+    0 0 25px #00eaff;
+
+
+}
+
+
+
+.dash-card h2{
+
+
+    font-size:40px;
+
+    margin-bottom:15px;
+
+
+}
+
+
+
+.dash-card h3{
+
+
+    color:#00eaff;
+
+    margin-bottom:10px;
+
+
+}
+
+
+
+
+
+/* BOOKING TABLE */
+
+
+.booking-table{
+
+
+    margin-top:60px;
+
+
+}
+
+
+
+.booking-table table{
+
+
+    width:90%;
+
+    margin:auto;
+
+    border-collapse:collapse;
+
+
+}
+
+
+
+.booking-table th,
+.booking-table td{
+
+
+    padding:15px;
+
+    border:1px solid rgba(255,255,255,.4);
+
+
+}
+
+
+
+.booking-table th{
+
+
+    background:rgba(0,198,255,.3);
+
+
+}
+
+
+
+
+
+/* PROVIDER BUTTONS */
+
+
+.provider-actions{
+
+
+    margin-top:40px;
+
+
+}
+
+
+
+.provider-actions button{
+
+
+    padding:15px 30px;
+
+    margin:10px;
+
+
+    border:none;
+
+    border-radius:30px;
+
+
+    background:#00c6ff;
+
+    color:white;
+
+
+    cursor:pointer;
+
+    transition:.3s;
+
+
+}
+
+
+
+.provider-actions button:hover{
+
+
+    box-shadow:
+
+    0 0 20px #00eaff;
+
+
+    transform:scale(1.05);
+
+
+}
